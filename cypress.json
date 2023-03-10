@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": false,
+    "testFiles": "**/*.features",
+    "plugins": [
+      {
+        "name": "cypress-cucumber-preprocessor",
+        "options": {
+          "stepDefinitions": "cypress/integration/step_definitions"
+        }
+      }
+    ]
+}
